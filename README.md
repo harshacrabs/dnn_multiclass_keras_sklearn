@@ -2,15 +2,15 @@
 
 
 <h3>Overview</h3>
-In this project, we aimed to predict whether the Apple Watch can correctly predict physical activity. We used a dataset that contained information on the physical activity of 16 participants.
+In this project, I aimed to predict whether the Apple Watch can correctly predict physical activity. I used a dataset that contained information on the physical activity of 16 participants.
 
-We used several machine learning models to build a predictive model, and we evaluated them based on their F1-macro score. We selected this score because we assumed that both false positives and false negatives were equally expensive in this problem. Therefore, we needed a performance metric that would consider both precision and recall.
+I used several machine learning models to build a predictive model, and  evaluated them based on their F1-macro score. I selected this score because we assumed that both false positives and false negatives were equally expensive in this problem. Therefore, I needed a performance metric that would consider both precision and recall.
 
 <h3>Data Preprocessing</h3>
-We performed the following data preprocessing steps before building the models:
+I performed the following data preprocessing steps before building the models:
 
-We resampled the data using the RandomOverSampler to balance the class distribution.
-We split the data into training and testing sets using a 70-30 ratio.
+I resampled the data using the RandomOverSampler to balance the class distribution.
+I split the data into training and testing sets using a 70-30 ratio.
 
 <h3>Models</h3>
 We built the following models:
